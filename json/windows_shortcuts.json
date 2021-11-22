@@ -797,33 +797,6 @@
          ]
       },
       {
-         "description": "Alt (Tab)",
-         "manipulators": [
-            {
-               "from": {
-                  "key_code": "tab",
-                  "modifiers": {
-                     "mandatory": [
-                        "option"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "tab",
-                     "modifiers": [
-                        "command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
          "description": "Backspace (Ctrl)",
          "manipulators": [
             {
