@@ -78,9 +78,9 @@ local k = import 'lib/karabiner.libsonnet';
            k.input('right_arrow', ['control', 'shift']),
            k.outputKey('right_arrow', ['option', 'shift']),
            k.condition('unless', bundle.standard)),
-    //k.rule('Alt (Tab)',
-    //        k.input('tab', ['option']),
-    //        k.outputKey('tab', ['command'])),
+    k.rule('Alt (Tab)',
+            k.input('tab', ['option']),
+            k.outputKey('tab', ['command'])),
     // Command Keys
     k.rule('Backspace (Ctrl)',
            k.input('delete_or_backspace', ['control']),
