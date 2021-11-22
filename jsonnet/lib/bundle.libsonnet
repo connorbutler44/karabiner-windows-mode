@@ -66,4 +66,10 @@
     $.remoteDesktops +
     $.terminalEmulators +
     [],  // unnecessary, but it allows the '$.foo +'-style for the preceeding lines, which makes my OCD happy
+
+  standardNonIde:
+    $.hypervisors +
+    $.remoteDesktops +
+    $.terminalEmulators +
+    [],  // unnecessary, but it allows the '$.foo +'-style for the preceeding lines, which makes my OCD happy
 }
