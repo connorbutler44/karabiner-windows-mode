@@ -824,6 +824,35 @@
          ]
       },
       {
+         "description": "Alt (Tab+Shift)",
+         "manipulators": [
+            {
+               "from": {
+                  "key_code": "tab",
+                  "modifiers": {
+                     "mandatory": [
+                        "option",
+                        "shift"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "tab",
+                     "modifiers": [
+                        "command",
+                        "shift"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
          "description": "Backspace (Ctrl)",
          "manipulators": [
             {
